@@ -6,12 +6,12 @@ package com.training.training;
  */
 public class App 
 
-//I am happy with my current code commit 2
+//I am happy with my current code commit 3
 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! commit2" );
+        System.out.println( "Hello World! commit3" );
 
     }
 }
