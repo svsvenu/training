@@ -24,4 +24,4 @@ java training
 
 
 6. Log the beginning and the end of the method calls in MathUilImpl class using log4j. The output should be a methodcall.log
-   file which is updated with the values of the input parameters ( a and b ) 
+   file which is updated with the values of the input parameters ( a and b ) that are passed to the method
