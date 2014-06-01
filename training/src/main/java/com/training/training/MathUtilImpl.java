@@ -2,25 +2,41 @@ package com.training.training;
 
 public class MathUtilImpl implements MathUtil {
 
-	public void add(Integer a, Integer b) throws Exception {
+	public Integer add(Integer a, Integer b) throws Exception {
 		// TODO Auto-generated method stub
 		
+		Integer sum = a + b;
 		
+	
+		
+		return sum;
 
 	}
 
-	public void subtract(Integer a, Integer b) throws Exception {
+	public Integer subtract(Integer a, Integer b) throws Exception {
 		// TODO Auto-generated method stub
+		
+		Integer diff = a- b;
+		
+		return diff;
 
 	}
 
-	public void divide(Integer a, Integer b) throws Exception {
+	public Integer divide(Integer a, Integer b) throws Exception {
 		// TODO Auto-generated method stub
+		
+		Integer quo = a/b;
+		
+		return quo;
 
 	}
 
-	public void multiply(Integer a, Integer b) throws Exception {
+	public Integer multiply(Integer a, Integer b) throws Exception {
 		// TODO Auto-generated method stub
+		
+		Integer product = a*b;
+		
+		return product;
 
 	}
 
