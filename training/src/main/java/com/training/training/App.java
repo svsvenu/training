@@ -12,7 +12,7 @@ public class App
 
 {
 	
-	// New idea implemented
+	// New idea implemented second commit
 	
 	static Logger log = Logger.getLogger(App.class);
 	
