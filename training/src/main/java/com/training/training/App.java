@@ -1,5 +1,7 @@
 package com.training.training;
 
+import org.apache.log4j.Logger;
+
 /**
  * Hello world! After tag1 
  *
@@ -11,9 +13,16 @@ public class App
 // Firs master commit after new idea
 
 {
+	
+	// New idea implemented second commit
+	
+	static Logger log = Logger.getLogger(App.class);
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! commit4" );
+       // System.out.println( "Hello World! commit4" );
+        
+        log.debug("this message is from the logger");
         
         Integer a = 10;
         
