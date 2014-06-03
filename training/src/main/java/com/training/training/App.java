@@ -1,5 +1,7 @@
 package com.training.training;
 
+import org.apache.log4j.Logger;
+
 /**
  * Hello world! After tag1 
  *
@@ -9,9 +11,16 @@ public class App
 //I am happy with my current code commit 4
 
 {
+	
+	// New idea implemented
+	
+	static Logger log = Logger.getLogger(App.class);
+	
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! commit4" );
+       // System.out.println( "Hello World! commit4" );
+        
+        log.debug("this message is from the logger");
         
         Integer a = 10;
         
