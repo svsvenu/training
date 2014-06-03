@@ -8,6 +8,8 @@ public class App
 
 //I am happy with my current code commit 4
 
+// Firs master commit after new idea
+
 {
     public static void main( String[] args )
     {
